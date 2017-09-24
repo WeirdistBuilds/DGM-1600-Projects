@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: plane2.ma
-//Last modified: Fri, Sep 15, 2017 11:51:31 PM
+//Last modified: Fri, Sep 15, 2017 11:51:11 PM
 //Codeset: 1252
 requires maya "2018";
 requires "stereoCamera" "10.0";
@@ -3367,14 +3367,14 @@ createNode mesh -n "wheelRightMount1Shape" -p "transform7";
 	setAttr ".ai_translator" -type "string" "polymesh";
 createNode transform -s -n "persp";
 	rename -uid "125E81DD-4987-8FD5-90AA-B0963AF9ECB7";
-	setAttr ".t" -type "double3" 0.10926947058418726 3.9866573241332062 -10.53183473870747 ;
+	setAttr ".t" -type "double3" 0.10926947058418573 3.9866573241331906 -10.531834738707408 ;
 	setAttr ".r" -type "double3" 346.46164740063068 -8461.399999983023 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "0740B75A-4998-8DEF-0975-35A96C05E83E";
 	setAttr -k off ".v";
 	setAttr ".pze" yes;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 8.894123011423094;
+	setAttr ".coi" 8.8941230114230159;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
